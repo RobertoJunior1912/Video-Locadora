@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTITULO">
+    <property name="title">
+     <string>TÍTULO</string>
+    </property>
+    <addaction name="actionCATEGORIA"/>
+    <addaction name="actionG_NERO"/>
+    <addaction name="separator"/>
+    <addaction name="actionCADASTRAR"/>
+    <addaction name="separator"/>
+    <addaction name="sair_menu"/>
+   </widget>
+   <widget class="QMenu" name="menuM_DIAS">
+    <property name="title">
+     <string>MÍDIAS</string>
+    </property>
+    <addaction name="actionIDIOMA"/>
+    <addaction name="actionTIPO"/>
+    <addaction name="actionSTATUS"/>
+    <addaction name="separator"/>
+    <addaction name="actionEMPRESTAR"/>
+    <addaction name="actionDEVOLVER"/>
+    <addaction name="actionRESERVAR"/>
+   </widget>
+   <widget class="QMenu" name="menuCLIENTES">
+    <property name="title">
+     <string>CLIENTES</string>
+    </property>
+    <addaction name="botao_cadastrar_cliente"/>
+    <addaction name="separator"/>
+    <addaction name="actionCONSULTAR_SALDO"/>
+    <addaction name="actionBAIXAR_D_VIDAS"/>
+    <addaction name="actionLISTAR_EMPR_STIMOS"/>
+   </widget>
+   <widget class="QMenu" name="menuFUNCION_RIOS">
+    <property name="title">
+     <string>FUNCIONÁRIOS</string>
+    </property>
+    <addaction name="botao_cadastrar_funcionario"/>
+   </widget>
+   <widget class="QMenu" name="menuHALP">
+    <property name="title">
+     <string>HELP</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSOBRE">
+    <property name="title">
+     <string>SOBRE</string>
+    </property>
+   </widget>
+   <addaction name="menuTITULO"/>
+   <addaction name="menuM_DIAS"/>
+   <addaction name="menuCLIENTES"/>
+   <addaction name="menuFUNCION_RIOS"/>
+   <addaction name="menuHALP"/>
+   <addaction name="menuSOBRE"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCATEGORIA">
+   <property name="text">
+    <string>CATEGORIA</string>
+   </property>
+  </action>
+  <action name="actionG_NERO">
+   <property name="text">
+    <string>GÊNERO</string>
+   </property>
+  </action>
+  <action name="actionCADASTRAR">
+   <property name="text">
+    <string>CADASTRAR</string>
+   </property>
+  </action>
+  <action name="sair_menu">
+   <property name="text">
+    <string>SAIR</string>
+   </property>
+  </action>
+  <action name="actionIDIOMA">
+   <property name="text">
+    <string>IDIOMA</string>
+   </property>
+  </action>
+  <action name="actionTIPO">
+   <property name="text">
+    <string>TIPO</string>
+   </property>
+  </action>
+  <action name="actionSTATUS">
+   <property name="text">
+    <string>STATUS</string>
+   </property>
+  </action>
+  <action name="actionEMPRESTAR">
+   <property name="text">
+    <string>EMPRESTAR</string>
+   </property>
+  </action>
+  <action name="actionDEVOLVER">
+   <property name="text">
+    <string>DEVOLVER</string>
+   </property>
+  </action>
+  <action name="actionRESERVAR">
+   <property name="text">
+    <string>RESERVAR</string>
+   </property>
+  </action>
+  <action name="botao_cadastrar_cliente">
+   <property name="text">
+    <string>CADASTRAR</string>
+   </property>
+  </action>
+  <action name="actionCONSULTAR_SALDO">
+   <property name="text">
+    <string>CONSULTAR SALDO</string>
+   </property>
+  </action>
+  <action name="actionBAIXAR_D_VIDAS">
+   <property name="text">
+    <string>BAIXAR DÍVIDAS</string>
+   </property>
+  </action>
+  <action name="actionLISTAR_EMPR_STIMOS">
+   <property name="text">
+    <string>LISTAR EMPRÉSTIMOS</string>
+   </property>
+  </action>
+  <action name="botao_cadastrar_funcionario">
+   <property name="text">
+    <string>CADASTRAR</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
