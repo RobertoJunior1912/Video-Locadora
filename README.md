@@ -1,2 +1,2 @@
 # Video-Locadora
-Meu primeiro projeto acadêmico completo, desenvolvido no meu curso de Análise e Desenvolvimento de Sistemas, UNIARP.
+Meu primeiro projeto acadêmico, utilizando orientação a objetos (Básico).
